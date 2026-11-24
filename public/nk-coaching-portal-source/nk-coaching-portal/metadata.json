@@ -1,0 +1,6 @@
+{
+  "name": "NK — Coaching & Computer Classes",
+  "description": "NK Coaching & Computer Classes - Complete institute management app with student admissions, automated fee receipts to parents, QR attendance, computer lab allocation, tests, and role-based portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

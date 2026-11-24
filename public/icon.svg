@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-gradient)" />
+
+  <!-- Inner ambient border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#6366F1" stroke-width="4" stroke-opacity="0.4" />
+
+  <!-- Academic / Tech Decorative Badge Ring -->
+  <circle cx="256" cy="180" r="110" fill="#312E81" fill-opacity="0.5" stroke="url(#accent-gradient)" stroke-width="6" filter="url(#shadow)" />
+
+  <!-- Graduation Cap Icon & Computer Monitor Emblem -->
+  <path d="M256 120 L330 160 L256 200 L182 160 Z" fill="#38BDF8" />
+  <path d="M330 160 L330 195 L322 195 L322 165 Z" fill="#FCD34D" />
+  <circle cx="326" cy="200" r="5" fill="#FCD34D" />
+  <path d="M205 174 L205 210 C205 230 256 242 256 242 C256 242 307 230 307 210 L307 174 L256 202 Z" fill="#818CF8" />
+
+  <!-- Monogram "NK" in bold modern geometric display -->
+  <g filter="url(#shadow)">
+    <!-- Letter N -->
+    <path d="M140 390 L140 280 L185 280 L235 350 L235 280 L275 280 L275 390 L230 390 L180 320 L180 390 Z" fill="#FFFFFF" />
+    <!-- Letter K -->
+    <path d="M295 390 L295 280 L335 280 L335 322 L368 280 L418 280 L365 332 L422 390 L370 390 L335 342 L335 390 Z" fill="#38BDF8" />
+  </g>
+
+  <!-- Bottom subtitle indicator -->
+  <rect x="166" y="420" width="180" height="24" rx="12" fill="#10B981" />
+  <text x="256" y="437" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" letter-spacing="2">CLASSES &amp; LAB</text>
+</svg>
